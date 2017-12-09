@@ -1,10 +1,11 @@
-
-from collections import deque
-from threading import Lock
-from time import time
 import requests
+
 from flask import Flask
 from flask_restful import Resource, Api, request
+from threading import Lock
+from collections import deque
+from time import time
+
 
 app = Flask(__name__)
 api = Api(app)
