@@ -57,7 +57,7 @@ class Master(Resource):
 
 
 class NodeSetup(Resource):
-    ''' Issues newly instantiated Workers with a URL to access commits '''
+    ''' Issues newly instantiated Slaves with a URL to access commits '''
 
     def get(self):
         global TOTAL_WORKERS
@@ -72,8 +72,8 @@ class NodeSetup(Resource):
 
 def get_commits():
     '''
-    Retrieves SHA's for every commit in my Internet Apps Chat Server repository that has 56 commits
-    and 7 python files, and fills the Job Queue
+    Retrieves SHA's for every commit in my Internet Apps Chat Server repository that has 14 commits
+    and 3 python files and other format files, and fills the Job Queue
     '''
     global COMMIT_LIST_URL
     global JOB_QUEUE
