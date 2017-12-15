@@ -8,4 +8,4 @@ email id : behlm@tcd.ie
 Dependencies: Python 2.7
 
 # Documentation
-Read the documentation file for understanding the working.
+Read the documentation file to understand the working.
